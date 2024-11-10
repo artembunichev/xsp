@@ -3,7 +3,7 @@ build: cc xsp xsp.c -lX11*/
 #include<X11/Xlib.h>
 #include<unistd.h>
 #include<stdio.h>
-static Atom CLP;//CLIPBOARD standart atom
+static Atom CLP;//CLIPBOARD standard atom
 static Atom UTF;//type we want to convert selection to
 static Atom SEL;//arbitrary atom for our own window to store selection data in
 
